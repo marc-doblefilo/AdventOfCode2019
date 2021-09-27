@@ -8,3 +8,4 @@ if __name__ == "__main__":
             list_of_masses.append(int(line))
 
     print("Day 1 - Part One: " + str(sum_of_fuels(list_of_masses)))
+    print("Day 1 - Part Two: " + str(sum_of_sums_of_fuels(list_of_masses)))
